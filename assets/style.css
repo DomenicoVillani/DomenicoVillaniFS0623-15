@@ -1,0 +1,98 @@
+body{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+    text-align: center;
+    text-shadow: 3px -2px 3px rgba(179,0,190,0.6);
+}
+#dado{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    padding: 2%;
+    margin: 3%;
+}
+#confrontoNumeri{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;  
+    margin: 3%;
+    padding: 2%;
+}
+#stringSplit{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+#cutString{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center; 
+    margin: 3%;
+    padding: 2%;
+}
+#onlyString{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+#isEmail{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%; 
+    padding: 2%;
+}
+#giornoDellaSettimana{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+#tiraNVolteDado{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+#giorniPassati{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+#compleanno{
+    color: blueviolet;
+    background-color: coral;
+    box-shadow: 10px 10px 5px;
+    text-align: center;
+    margin: 3%;
+    padding: 2%;
+}
+button{
+    border: none;
+    background-color: rgb(204, 0, 153);
+    padding: 1vh 2vw;
+    font-weight: bold;
+
+}
+button:hover{
+    cursor: pointer;
+}

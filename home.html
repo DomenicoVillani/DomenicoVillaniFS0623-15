@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Esercizi JS</title>
+    <link rel="stylesheet" href="assets/style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Esercizi!</h1>
+      <div id="dado">
+        <h2>Tira un dado!</h2>
+        <form>
+          <button type="button" onclick="dice()">Clicca qui per tirare il dado!</button>
+        </form>
+      </div>
+      <div id="confrontoNumeri">
+        <h2>Confronto di due numeri!</h2>
+        <form>
+          <label for="numero1">inserisci un numero da confrontare</label>
+          <input type="number" id="numero1" name="numero1" required>
+          <label for="numero2">inserisci un numero da confrontare</label>
+          <input type="number" id="numero2" name="numero2" required>
+          <button type="button" onclick="whoIsBigger()">Clicca qui per confrontare i due numeri!</button>
+        </form>
+      </div> 
+      <div id="stringSplit">
+        <form>
+          <label for="stringaInput">inserisci una frase da splittare in un array</label>
+          <input type="text" id="stringaInput" name="stringaInput" required>
+          <button type="button" onclick="splitMe()">Clicca qui per dividere la frase!</button>
+        </form>
+      </div>
+      <div id="cutString">
+        <form>
+          <label for="stringaCut">inserisci una parola da tagliare</label>
+          <input type="text" id="stringaCut" name="stringaCut" required>
+          <button type="button" onclick="deleteOneT()">Taglia la prima lettera</button>
+          <button type="button" onclick="deleteOneF()">Taglia l'ultima lettera</button>
+        </form>
+      </div>
+      <div id="onlyString">
+        <form>
+          <label for="soloString">inserisci una frase a cui rimuovere i numeri</label>
+          <input type="text" id="soloString" name="soloString" required>
+          <button type="button" onclick="onlyLetters()">Togli i numeri!</button>
+        </form>
+      </div>
+      <div id="isEmail">
+        <form>
+          <label for="emailOrNot">inserisci una stringa per verificare se e' un'email</label>
+          <input type="text" id="emailOrNot" name="emailOrNot" required>
+          <button type="button" onclick="isThisAnEmail()">Verifica stringa</button>
+        </form>
+      </div>
+      <div id="giornoDellaSettimana">
+        <form>
+          <button type="button" onclick="whatDayIsIt()">Che giorno della settimana e'?</button>
+        </form>
+      </div>
+      <div id="tiraNVolteDado">
+        <form>
+          <label for="numeroTiri">inserisci il numero di tiri da dover effetturare col dado</label>
+          <input type="number" id="numeroTiri" name="numeroTiri" required>
+          <button type="button" onclick="rollTheDices()">Tira i dadi!</button>
+        </form>
+      </div>
+      <div id="giorniPassati">
+        <form>
+          <label for="calcData">inserisci un giorno</label>
+          <input type="date" name="calcData" id="calcData" required>
+          <button type="button" onclick="howManyDays()">Calcola giorni passati</button>
+        </form>
+      </div>
+      <div id="compleanno">
+        <form>
+          <label for="calcCompl">inserisci il giorno del tuo compleanno</label>
+          <input type="date" name="calcCompl" id="calcCompl" required>
+          <button type="button" onclick="isTodayMyBirthday()">e' oggi??</button>
+        </form>
+    </main>
+    <script src="D10.js"></script>
+  </body>
+</html>
