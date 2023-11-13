@@ -258,6 +258,7 @@ function howManyDays(){
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
+
 function isTodayMyBirthday(){
   const giorno = document.getElementById("calcCompl").value
   const dataScelta = new Date(giorno)
@@ -551,7 +552,7 @@ function halfTree(altezza){
     console.log("l'altezza deve essere maggiore di 0")
   }
 }
-const altezzaMezzoAlbero = 4
+const altezzaMezzoAlbero = 3
 halfTree(altezzaMezzoAlbero)
 /* ESERCIZIO 28
   Crea una funzione chiamata "tree" che riceve un numero come parametro e costruisce un albero di "*" (asterischi) dell'altezza fornita.
